@@ -37,7 +37,7 @@ flowchart LR
 .
 ├── README.md
 ├── docs/
-│   ├── penjelasan-gambar.md
+│   ├── screenshot-explanations.md
 │   └── architecture.mmd
 ├── sql/
 │   ├── 01_received_inventory_template.sql
