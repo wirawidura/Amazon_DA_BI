@@ -1,0 +1,10 @@
+flowchart LR
+    A[Source / operational data] --> B[Amazon Redshift]
+    B --> C[SQL validation and tuning]
+    C --> D[Amazon QuickSight dataset / semantic layer]
+    D --> E[Hazmat received inventory dashboard]
+    D --> F[ATAC received inventory dashboard]
+    D --> G[Employee compliance / PPR hours dashboards]
+    H[Governance and access controls] -.-> D
+    I[Scheduled refresh] -.-> D
+    J[Source migration + field mapping] --> D
